@@ -1,0 +1,28 @@
+.cuisines, .dishes, .recipes {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    width: 100%;              /* Set the width to 100% of its container */
+    border-radius: 15px;       /* Add rounded corners */
+    opacity: 0.9;              /* Slightly transparent */
+    transition: opacity 0.3s;  /* Smooth transition effect on hover */
+}
+
+img:hover {
+    opacity: 1;                /* Fully opaque when hovered */
+}
